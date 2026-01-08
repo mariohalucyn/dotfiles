@@ -1,4 +1,5 @@
 #! /bin/bash
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 dconf write /org/gnome/shell/keybindings/switch-to-application-1 "@as []"
 dconf write /org/gnome/shell/keybindings/switch-to-application-2 "@as []"
 dconf write /org/gnome/shell/keybindings/switch-to-application-3 "@as []"
