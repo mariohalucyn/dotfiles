@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Warcraft: Orcs & Humans
+Comment=Launch Warcraft 1 via DOSBox
+Exec=dosbox -c "mount c /home/kacper/Games" -c "c:" -c "cd warcraft/WARCRAFT" -c "WAR"
+Icon=/home/kacper/Games/warcraft/warcraft_icon.png
+Terminal=false
+Categories=Game;StrategyGame;
+StartupNotify=false
