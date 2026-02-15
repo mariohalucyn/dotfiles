@@ -1,5 +1,6 @@
 #! /bin/bash
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 dconf write /org/gnome/shell/keybindings/switch-to-application-1 "@as []"
 dconf write /org/gnome/shell/keybindings/switch-to-application-2 "@as []"
 dconf write /org/gnome/shell/keybindings/switch-to-application-3 "@as []"
