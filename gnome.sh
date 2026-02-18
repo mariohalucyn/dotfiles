@@ -1,5 +1,4 @@
 #! /bin/bash
-gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 dconf write /org/gnome/shell/keybindings/switch-to-application-1 "@as []"
 dconf write /org/gnome/shell/keybindings/switch-to-application-2 "@as []"
@@ -31,7 +30,3 @@ dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-7 "['<Shift><Sup
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-8 "['<Shift><Super>8']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-9 "['<Shift><Super>9']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-10 "['<Shift><Super>0']"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name "'Launch terminal'"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command "'ptyxis --new-window'"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'<Super>Return'"
